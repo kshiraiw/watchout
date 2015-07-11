@@ -29,9 +29,10 @@ body {
 
 body {
   color: #6d6d6d;
-  background-color: #333;
+  background: url('img/bg.gif') top left repeat;
   font-family: Helvetica, sans-serif;
   font-size: 14px;
+  font-weight: 300;
   line-height: 1.8;
 }
 
@@ -86,7 +87,7 @@ em {
 .container {
   margin: 0 auto;
   padding: 24px;
-  width: 960px;
+  width: 1140px;
 }
 
 /* -----------------------------------------------------------------------------
@@ -96,7 +97,18 @@ em {
 ----------------------------------------------------------------------------- */
 
 .scoreboard {
+  margin-bottom: 24px;
   text-align: center;
+}
+
+.score {
+  display: inline-block;
+  margin: 0 24px;
+  padding: 4px 12px;
+  width: 280px;
+  color: #fff;
+  background-color: rgb(29, 29, 29);
+  font-size: 18px;
 }
 
 /* -----------------------------------------------------------------------------
@@ -109,4 +121,30 @@ em {
   display: block;
   margin: 0 auto;
   background-color: #fff;
+  background-image: url('img/board-bg.jpg');
+  box-shadow: 0 0 48px rgba(0, 0, 0, 0.8), 0 0 0 12px rgb(255, 40, 100);
+}
+
+/* -----------------------------------------------------------------------------
+
+  MONSTERS
+  
+----------------------------------------------------------------------------- */
+
+.monster1 {
+
+}
+
+.monster2 {
+  
+}
+
+/* -----------------------------------------------------------------------------
+
+  CUPCAKE
+  
+----------------------------------------------------------------------------- */
+
+.cupcake {
+  background-image: url('img/cupcake.png');
 }
